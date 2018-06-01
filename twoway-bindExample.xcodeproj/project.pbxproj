@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76B926D584AFCFFF0895A94B /* Pods_twoway_bindExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B9208DA3ABDB75FE9E64B63 /* Pods_twoway_bindExample.framework */; };
+		868B76DC206C9A08007B731A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868B76DB206C9A08007B731A /* AppDelegate.swift */; };
+		868B76DE206C9A08007B731A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868B76DD206C9A08007B731A /* ViewController.swift */; };
+		868B76E1206C9A08007B731A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 868B76DF206C9A08007B731A /* Main.storyboard */; };
+		868B76E3206C9A08007B731A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 868B76E2206C9A08007B731A /* Assets.xcassets */; };
+		868B76E6206C9A08007B731A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 868B76E4206C9A08007B731A /* LaunchScreen.storyboard */; };
+		868B76F1206C9A08007B731A /* twoway_bindExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868B76F0206C9A08007B731A /* twoway_bindExampleTests.swift */; };
+		868B76FC206C9A08007B731A /* twoway_bindExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868B76FB206C9A08007B731A /* twoway_bindExampleUITests.swift */; };
+		868B770A206C9C3F007B731A /* ControlPropertyType-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868B7709206C9C3F007B731A /* ControlPropertyType-Extension.swift */; };
+		868B770C206CA9E6007B731A /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868B770B206CA9E6007B731A /* Operators.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		868B76ED206C9A08007B731A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 868B76D0206C9A08007B731A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 868B76D7206C9A08007B731A;
+			remoteInfo = "twoway-bindExample";
+		};
+		868B76F8206C9A08007B731A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 868B76D0206C9A08007B731A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 868B76D7206C9A08007B731A;
+			remoteInfo = "twoway-bindExample";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4BD03BB6813F3BCC1AF3860D /* Pods-twoway-bindExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-twoway-bindExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-twoway-bindExample/Pods-twoway-bindExample.release.xcconfig"; sourceTree = "<group>"; };
+		8435FB4FC90DFBA9FB25ED44 /* Pods-twoway-bindExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-twoway-bindExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-twoway-bindExample/Pods-twoway-bindExample.debug.xcconfig"; sourceTree = "<group>"; };
+		868B76D8206C9A08007B731A /* twoway-bindExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "twoway-bindExample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		868B76DB206C9A08007B731A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		868B76DD206C9A08007B731A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		868B76E0206C9A08007B731A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		868B76E2206C9A08007B731A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		868B76E5206C9A08007B731A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		868B76E7206C9A08007B731A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		868B76EC206C9A08007B731A /* twoway-bindExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "twoway-bindExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		868B76F0206C9A08007B731A /* twoway_bindExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twoway_bindExampleTests.swift; sourceTree = "<group>"; };
+		868B76F2206C9A08007B731A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		868B76F7206C9A08007B731A /* twoway-bindExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "twoway-bindExampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		868B76FB206C9A08007B731A /* twoway_bindExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twoway_bindExampleUITests.swift; sourceTree = "<group>"; };
+		868B76FD206C9A08007B731A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		868B7709206C9C3F007B731A /* ControlPropertyType-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ControlPropertyType-Extension.swift"; sourceTree = "<group>"; };
+		868B770B206CA9E6007B731A /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
+		8B9208DA3ABDB75FE9E64B63 /* Pods_twoway_bindExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_twoway_bindExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		868B76D5206C9A08007B731A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76B926D584AFCFFF0895A94B /* Pods_twoway_bindExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		868B76E9206C9A08007B731A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		868B76F4206C9A08007B731A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		868B76CF206C9A08007B731A = {
+			isa = PBXGroup;
+			children = (
+				868B76DA206C9A08007B731A /* twoway-bindExample */,
+				868B76EF206C9A08007B731A /* twoway-bindExampleTests */,
+				868B76FA206C9A08007B731A /* twoway-bindExampleUITests */,
+				868B76D9206C9A08007B731A /* Products */,
+				BE430AD9310F151C77EE7903 /* Pods */,
+				A78A5EECE0D7D396EEE94770 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		868B76D9206C9A08007B731A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				868B76D8206C9A08007B731A /* twoway-bindExample.app */,
+				868B76EC206C9A08007B731A /* twoway-bindExampleTests.xctest */,
+				868B76F7206C9A08007B731A /* twoway-bindExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		868B76DA206C9A08007B731A /* twoway-bindExample */ = {
+			isa = PBXGroup;
+			children = (
+				868B76DB206C9A08007B731A /* AppDelegate.swift */,
+				868B76DD206C9A08007B731A /* ViewController.swift */,
+				868B770B206CA9E6007B731A /* Operators.swift */,
+				868B7709206C9C3F007B731A /* ControlPropertyType-Extension.swift */,
+				868B76DF206C9A08007B731A /* Main.storyboard */,
+				868B76E2206C9A08007B731A /* Assets.xcassets */,
+				868B76E4206C9A08007B731A /* LaunchScreen.storyboard */,
+				868B76E7206C9A08007B731A /* Info.plist */,
+			);
+			path = "twoway-bindExample";
+			sourceTree = "<group>";
+		};
+		868B76EF206C9A08007B731A /* twoway-bindExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				868B76F0206C9A08007B731A /* twoway_bindExampleTests.swift */,
+				868B76F2206C9A08007B731A /* Info.plist */,
+			);
+			path = "twoway-bindExampleTests";
+			sourceTree = "<group>";
+		};
+		868B76FA206C9A08007B731A /* twoway-bindExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				868B76FB206C9A08007B731A /* twoway_bindExampleUITests.swift */,
+				868B76FD206C9A08007B731A /* Info.plist */,
+			);
+			path = "twoway-bindExampleUITests";
+			sourceTree = "<group>";
+		};
+		A78A5EECE0D7D396EEE94770 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B9208DA3ABDB75FE9E64B63 /* Pods_twoway_bindExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE430AD9310F151C77EE7903 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8435FB4FC90DFBA9FB25ED44 /* Pods-twoway-bindExample.debug.xcconfig */,
+				4BD03BB6813F3BCC1AF3860D /* Pods-twoway-bindExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		868B76D7206C9A08007B731A /* twoway-bindExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 868B7700206C9A08007B731A /* Build configuration list for PBXNativeTarget "twoway-bindExample" */;
+			buildPhases = (
+				01D54E73FF508DEBE7112C4E /* [CP] Check Pods Manifest.lock */,
+				868B76D4206C9A08007B731A /* Sources */,
+				868B76D5206C9A08007B731A /* Frameworks */,
+				868B76D6206C9A08007B731A /* Resources */,
+				F9B0CEA376BFEADFF866BCFD /* [CP] Embed Pods Frameworks */,
+				23406EE9504D574A1F726240 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "twoway-bindExample";
+			productName = "twoway-bindExample";
+			productReference = 868B76D8206C9A08007B731A /* twoway-bindExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		868B76EB206C9A08007B731A /* twoway-bindExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 868B7703206C9A08007B731A /* Build configuration list for PBXNativeTarget "twoway-bindExampleTests" */;
+			buildPhases = (
+				868B76E8206C9A08007B731A /* Sources */,
+				868B76E9206C9A08007B731A /* Frameworks */,
+				868B76EA206C9A08007B731A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				868B76EE206C9A08007B731A /* PBXTargetDependency */,
+			);
+			name = "twoway-bindExampleTests";
+			productName = "twoway-bindExampleTests";
+			productReference = 868B76EC206C9A08007B731A /* twoway-bindExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		868B76F6206C9A08007B731A /* twoway-bindExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 868B7706206C9A08007B731A /* Build configuration list for PBXNativeTarget "twoway-bindExampleUITests" */;
+			buildPhases = (
+				868B76F3206C9A08007B731A /* Sources */,
+				868B76F4206C9A08007B731A /* Frameworks */,
+				868B76F5206C9A08007B731A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				868B76F9206C9A08007B731A /* PBXTargetDependency */,
+			);
+			name = "twoway-bindExampleUITests";
+			productName = "twoway-bindExampleUITests";
+			productReference = 868B76F7206C9A08007B731A /* twoway-bindExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		868B76D0206C9A08007B731A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Ge;
+				TargetAttributes = {
+					868B76D7206C9A08007B731A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					868B76EB206C9A08007B731A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 868B76D7206C9A08007B731A;
+					};
+					868B76F6206C9A08007B731A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 868B76D7206C9A08007B731A;
+					};
+				};
+			};
+			buildConfigurationList = 868B76D3206C9A08007B731A /* Build configuration list for PBXProject "twoway-bindExample" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 868B76CF206C9A08007B731A;
+			productRefGroup = 868B76D9206C9A08007B731A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				868B76D7206C9A08007B731A /* twoway-bindExample */,
+				868B76EB206C9A08007B731A /* twoway-bindExampleTests */,
+				868B76F6206C9A08007B731A /* twoway-bindExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		868B76D6206C9A08007B731A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				868B76E6206C9A08007B731A /* LaunchScreen.storyboard in Resources */,
+				868B76E3206C9A08007B731A /* Assets.xcassets in Resources */,
+				868B76E1206C9A08007B731A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		868B76EA206C9A08007B731A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		868B76F5206C9A08007B731A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01D54E73FF508DEBE7112C4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-twoway-bindExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		23406EE9504D574A1F726240 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-twoway-bindExample/Pods-twoway-bindExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9B0CEA376BFEADFF866BCFD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-twoway-bindExample/Pods-twoway-bindExample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-twoway-bindExample/Pods-twoway-bindExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		868B76D4206C9A08007B731A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				868B76DE206C9A08007B731A /* ViewController.swift in Sources */,
+				868B770C206CA9E6007B731A /* Operators.swift in Sources */,
+				868B770A206C9C3F007B731A /* ControlPropertyType-Extension.swift in Sources */,
+				868B76DC206C9A08007B731A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		868B76E8206C9A08007B731A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				868B76F1206C9A08007B731A /* twoway_bindExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		868B76F3206C9A08007B731A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				868B76FC206C9A08007B731A /* twoway_bindExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		868B76EE206C9A08007B731A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 868B76D7206C9A08007B731A /* twoway-bindExample */;
+			targetProxy = 868B76ED206C9A08007B731A /* PBXContainerItemProxy */;
+		};
+		868B76F9206C9A08007B731A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 868B76D7206C9A08007B731A /* twoway-bindExample */;
+			targetProxy = 868B76F8206C9A08007B731A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		868B76DF206C9A08007B731A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				868B76E0206C9A08007B731A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		868B76E4206C9A08007B731A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				868B76E5206C9A08007B731A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		868B76FE206C9A08007B731A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		868B76FF206C9A08007B731A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		868B7701206C9A08007B731A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8435FB4FC90DFBA9FB25ED44 /* Pods-twoway-bindExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MHJGG7NQ3M;
+				INFOPLIST_FILE = "twoway-bindExample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.c2vl.twoway-bindExample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		868B7702206C9A08007B731A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BD03BB6813F3BCC1AF3860D /* Pods-twoway-bindExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MHJGG7NQ3M;
+				INFOPLIST_FILE = "twoway-bindExample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.c2vl.twoway-bindExample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		868B7704206C9A08007B731A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MHJGG7NQ3M;
+				INFOPLIST_FILE = "twoway-bindExampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.c2vl.twoway-bindExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/twoway-bindExample.app/twoway-bindExample";
+			};
+			name = Debug;
+		};
+		868B7705206C9A08007B731A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MHJGG7NQ3M;
+				INFOPLIST_FILE = "twoway-bindExampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.c2vl.twoway-bindExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/twoway-bindExample.app/twoway-bindExample";
+			};
+			name = Release;
+		};
+		868B7707206C9A08007B731A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MHJGG7NQ3M;
+				INFOPLIST_FILE = "twoway-bindExampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.c2vl.twoway-bindExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "twoway-bindExample";
+			};
+			name = Debug;
+		};
+		868B7708206C9A08007B731A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MHJGG7NQ3M;
+				INFOPLIST_FILE = "twoway-bindExampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.c2vl.twoway-bindExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "twoway-bindExample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		868B76D3206C9A08007B731A /* Build configuration list for PBXProject "twoway-bindExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				868B76FE206C9A08007B731A /* Debug */,
+				868B76FF206C9A08007B731A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		868B7700206C9A08007B731A /* Build configuration list for PBXNativeTarget "twoway-bindExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				868B7701206C9A08007B731A /* Debug */,
+				868B7702206C9A08007B731A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		868B7703206C9A08007B731A /* Build configuration list for PBXNativeTarget "twoway-bindExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				868B7704206C9A08007B731A /* Debug */,
+				868B7705206C9A08007B731A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		868B7706206C9A08007B731A /* Build configuration list for PBXNativeTarget "twoway-bindExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				868B7707206C9A08007B731A /* Debug */,
+				868B7708206C9A08007B731A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 868B76D0206C9A08007B731A /* Project object */;
+}
